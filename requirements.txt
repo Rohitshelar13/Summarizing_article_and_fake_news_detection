@@ -1,0 +1,10 @@
+gunicorn
+numpy
+pandas
+flask
+scikit-learn
+itertools
+nltk
+spacy
+sumy
+gensim==3.6.0
