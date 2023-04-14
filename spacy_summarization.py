@@ -1,5 +1,7 @@
 # NLP Pkgs
-import spacy 
+import spacy
+# from spacy download en_core_web_sm 
+spacy.cli.download("en_core_web_sm")
 nlp = spacy.load('en_core_web_sm')
 # Pkgs for Normalizing Text
 from spacy.lang.en.stop_words import STOP_WORDS

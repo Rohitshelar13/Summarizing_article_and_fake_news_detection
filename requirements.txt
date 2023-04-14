@@ -8,4 +8,3 @@ spacy==3.2.1
 sumy
 gensim==3.6.0
 newsapi-python
-en-core-web-sm
