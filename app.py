@@ -10,6 +10,7 @@ from nltk_summarization import generate_summary_nltk
 from sumy_summarization import generate_summary
 import time
 import spacy
+spacy.cli.download("en_core_web_sm")
 nlp = spacy.load("en_core_web_sm")
 app = Flask(__name__)
 
@@ -149,4 +150,4 @@ def comparer():
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True)
