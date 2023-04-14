@@ -4,8 +4,7 @@ pandas
 flask
 scikit-learn
 nltk
-spacy==2.1.4
+spacy==3.2.1s
 sumy
 gensim==3.6.0
 newsapi-python
-python -m spacy download en
