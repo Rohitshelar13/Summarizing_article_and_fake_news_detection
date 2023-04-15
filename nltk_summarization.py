@@ -1,3 +1,7 @@
+
+
+
+
 # import nltk
 # from nltk.corpus import stopwords
 # from nltk.tokenize import word_tokenize, sent_tokenize
@@ -37,6 +41,7 @@
 # 	return summary
 
 import nltk
+nltk.download('punkt')
 from nltk.tokenize import sent_tokenize
 from nltk.probability import FreqDist
 from heapq import nlargest
